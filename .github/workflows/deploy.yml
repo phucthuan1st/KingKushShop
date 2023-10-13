@@ -24,7 +24,7 @@ jobs:
         go build -o app
         cd ..
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT }} # Use the repository secret with the token
 
     - name: Build Frontend
       run: |
@@ -32,10 +32,10 @@ jobs:
         # Add commands to build your frontend assets (e.g., npm run build)
         cd ..
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT }} # Use the repository secret with the token
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        personal_token: ${{ secrets.PAT }} # Use the repository secret with the token
         publish_dir: frontend/dist # Specify the directory with your frontend assets
