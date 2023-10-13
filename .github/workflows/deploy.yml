@@ -1,4 +1,4 @@
-name: Deploy Backend
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -10,16 +10,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set up Go
-        uses: actions/setup-go@v2
-        with:
-          go-version: 1.21.3 # Use the appropriate Go version
+    - name: Setup Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.x # Use the appropriate Go version
 
-      - name: Build and Deploy
-        run: |
-          cd backend
-          go build -o kingkush
-          ./kingkush & # Start your Golang server
+    - name: Build Backend
+      run: |
+        cd backend
+        go build -o app
+        cd ..
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Build Frontend
+      run: |
+        cd frontend
+        # Add commands to build your frontend assets (e.g., npm run build)
+        cd ..
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: frontend/dist # Specify the directory with your frontend assets
