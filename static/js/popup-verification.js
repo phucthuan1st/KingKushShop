@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Check if the user has confirmed their age
     const hasConfirmedAge = sessionStorage.getItem("confirmedAge");
+    const ageVerificationPopup = document.getElementsByClassName("age-popup")[0];
 
     // If not, show the age verification popup
-    if (!hasConfirmedAge) {
-        const ageVerificationPopup = document.getElementsByClassName("age-popup")[0];
+    if (hasConfirmedAge != "true") {
         ageVerificationPopup.style.display = "block";
     } 
     else {
