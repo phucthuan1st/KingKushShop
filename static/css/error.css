@@ -1,0 +1,27 @@
+.error-404 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.error-404 h1 {
+    font-size: 3rem;
+    color: #FF0000; /* Red color for the error message */
+}
+
+.error-404 p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.error-404 a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for the link */
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+.error-404 a:hover {
+    color: #0056b3; /* Hover color for the link */
+}
