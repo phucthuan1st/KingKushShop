@@ -14,6 +14,7 @@ func main() {
 
 	// Serve static files from the "static" directory
 	app.Static("/static", "./static")
+	app.Static("/favicon.ico", "./favicon.ico")
 
 	// Setup routes defined in your "routes" package
 	routes.SetupRoutes(app)
