@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/products.css">
 
     <!-------------------------------------------------------------------------------------->
     <meta charset="UTF-8">
@@ -17,7 +18,6 @@
     <title>King Kush Medicinal | Home</title>
 </head>
 
-
 <body>
     <!-------------------------------------- #header -------------------------------------->
     <div class="header">
@@ -25,23 +25,65 @@
             <div class="navbar">
                 <div class="logo">
                     <a href="#">
-                        <img src="./static/images/kingkush_logo.png" alt="King Kush Medicinal" height="75px">
+                        <img src="/static/images/kingkush_logo.png" alt="King Kush Medicinal" height="75px">
                     </a>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="/" >Home</a></li>
-                        <li><a href="/products" >Products</a></li>
-                        <li><a href="/blogs" >Blog</a></li>
-                        <li><a href="/about" >About</a></li>
-                        <li><a href="/contact" >Contact</a></li>
-                        <li><a href="/cart" >Cart</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/products">Products</a></li>
+                        <li><a href="/blogs">Blog</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/cart">Cart</a></li>
                     </ul>
                 </nav>
             </div>
-    
-            <div class="Products">
-                PRODUCTS but Nothing to see here at this time.
-            </div>
         </div>
     </div>
+
+    <!---------------PRODUCT SESSION--------------------------------->
+    <div class="container">
+        <div class="Products">
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="/static/temp-images/category-1.jpg" alt="Product 1">
+                </div>
+                <h2>Product 1</h2>
+                <p>Description of Product 1. This can be a brief overview.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="/static/temp-images/category-2.jpg" alt="Product 2">
+                </div>
+                <h2>Product 2</h2>
+                <p>Description of Product 2. This can be a brief overview.</p>
+                <p class="price">$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="/static/temp-images/category-3.jpg" alt="Product 3">
+                </div>
+                <h2>Product 3</h2>
+                <p>Description of Product 3. This can be a brief overview.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="/static/images/cannabis-flower.png" alt="Product 4">
+                </div>
+                <h2>Product 4</h2>
+                <p>Description of Product 4. This can be a brief overview.</p>
+                <p class="price">$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <!-- Add more product cards as needed -->
+    </div>
+</body>
+
+</html>
