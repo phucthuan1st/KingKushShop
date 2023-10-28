@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
     if (!hasConfirmedAge) {
         const ageVerificationPopup = document.getElementsByClassName("age-popup")[0];
         ageVerificationPopup.style.display = "block";
+    } 
+    else {
+        ageVerificationPopup.style.display = "none";
     }
 });
 
