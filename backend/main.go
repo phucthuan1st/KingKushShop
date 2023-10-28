@@ -18,7 +18,7 @@ func main() {
 	api.SetUpAPI(app)
 
 	// Start the server
-	err := app.Listen(":8080")
+	err := app.Listen("0.0.0.0:8080")
 	if err != nil {
 		panic(err)
 	}
