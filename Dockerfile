@@ -24,12 +24,12 @@ WORKDIR /app
 # Copy the binary from the build image to this image
 COPY --from=build /app/kingkush ./
 
-COPY frontend static ./
+# Copy the frontend and static directories
+COPY frontend /app/frontend
+COPY static /app/static
 
 # Expose the port your application will run on
 EXPOSE 8080
-
-WORKDIR /app
 
 # Define the command to run your application
 CMD ["./kingkush"]
