@@ -4,6 +4,7 @@ import (
 	"KingKush/backend/api"
 	"KingKush/backend/routes"
 	"log"
+	"os"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -18,6 +19,12 @@ func main() {
 	routes.SetupRoutes(app)
 	api.SetUpAPI(app)
 
+	port := os.Getenv("PORT")
+
+	if port == "" {
+		port = "8080"
+	}
+
 	// Start the server
-	log.Fatal(app.Listen("0.0.0.0:8080"))
+	log.Fatal(app.Listen("0.0.0.0:" + port))
 }
