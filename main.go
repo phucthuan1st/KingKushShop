@@ -3,6 +3,7 @@ package main
 import (
 	"KingKush/backend/api"
 	"KingKush/backend/routes"
+	"log"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -18,8 +19,5 @@ func main() {
 	api.SetUpAPI(app)
 
 	// Start the server
-	err := app.Listen("0.0.0.0:8080")
-	if err != nil {
-		panic(err)
-	}
+	log.Fatal(app.Listen("0.0.0.0:8080"))
 }
