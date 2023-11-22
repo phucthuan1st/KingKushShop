@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.selected {
+  color: white;
+  background-color: #28a745;
+}
+
+.selected:hover {
+  color: white;
+  background-color: #28a745;
+}
