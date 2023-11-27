@@ -1,14 +1,19 @@
 import './App.css';
-import Header from "./HeaderAndFooter/Header";
+import Header from './components/web/header';
 
 function App() {
-  const navItemSelected = (itemId) => {
-    console.log(itemId);
-  }
 
   return (
     <div className="App">
-      <Header navItemSelected={navItemSelected} />
+      <div className='container'>
+        <Header />
+      </div>
+      <div className='container'>
+
+      </div>
+      <div className='container'>
+
+      </div>
     </div>
   );
 }
