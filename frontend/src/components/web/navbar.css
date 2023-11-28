@@ -1,0 +1,42 @@
+.nav-flex {
+  display: flex;
+  height: 15%;
+  align-items: center;
+}
+
+.nav-flex .brand {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.brand h2 {
+  font-size: 1.5rem;
+}
+
+.nav-flex .nav {
+  width: 70%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+.nav .nav-item {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.nav .nav-item.active {
+  text-decoration: underline
+}
+
+.nav .nav-item:hover {
+  color: darkolivegreen;
+  background-color: cornsilk;
+  border-radius: 0.5rem;
+}
