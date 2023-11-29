@@ -1,31 +1,23 @@
 .header {
+  position: sticky;
+  top: 0;
   height: 95vh;
+  display: flex;
   flex-direction: column;
   user-select: none;
 }
 
-@media (max-width: 1080px) {
-  .in-sidebar {
-    display: none;
-  }
+.background-image {
+  background-image: url("../static/background.jpg");
+  background-size: cover;
+}
 
+@media (max-width: 1080px) {
   .header {
     height: 50vh;
   }
 
   .background-image {
     height: 50vh;
-  }
-
-  .welcome-flex h1 {
-    font-size: 1.2rem;
-  }
-
-  .welcome-flex h2 {
-    font-size: 0.8rem;
-  }
-
-  .brand h2 {
-    font-size: 1.2rem;
   }
 }

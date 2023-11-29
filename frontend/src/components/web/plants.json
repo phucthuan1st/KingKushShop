@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sapphire_rose",
+    "name": "Sapphire Rose",
+    "price": 15.99,
+    "image_link": "https://iili.io/JxNNHPf.png"
+  },
+  {
+    "id": "golden_fern",
+    "name": "Golden Fern",
+    "price": 12.49,
+    "image_link": "https://iili.io/JxNwmtn.png"
+  },
+  {
+    "id": "azure_orchid",
+    "name": "Azure Orchid",
+    "price": 18.75,
+    "image_link": "https://iili.io/JxNwt9I.png"
+  },
+  {
+    "id": "amber_lily",
+    "name": "Amber Lily",
+    "price": 9.99,
+    "image_link": "https://iili.io/JxNwbwX.png"
+  },
+  {
+    "id": "silver_maple",
+    "name": "Silver Maple",
+    "price": 22.5,
+    "image_link": "https://iili.io/JxNwDut.jpg"
+  },
+  {
+    "id": "emerald_bamboo",
+    "name": "Emerald Bamboo",
+    "price": 14.95,
+    "image_link": "https://iili.io/JxNwyns.png"
+  },
+  {
+    "id": "topaz_tulip",
+    "name": "Topaz Tulip",
+    "price": 16.25,
+    "image_link": "https://iili.io/JxNN9MG.jpg"
+  },
+  {
+    "id": "ruby_daisy",
+    "name": "Ruby Daisy",
+    "price": 11.99,
+    "image_link": "https://iili.io/JxNN2cl.png"
+  },
+  {
+    "id": "onyx_sunflower",
+    "name": "Onyx Sunflower",
+    "price": 19.99,
+    "image_link": "https://iili.io/JxNNnou.png"
+  },
+  {
+    "id": "pearl_cactus",
+    "name": "Pearl Cactus",
+    "price": 8.5,
+    "image_link": "https://iili.io/JxNNfA7.png"
+  },
+  {
+    "id": "quartz_rosemary",
+    "name": "Quartz Rosemary",
+    "price": 13.75,
+    "image_link": "https://iili.io/JxNNqN9.png"
+  },
+  {
+    "id": "ruby_tulip",
+    "name": "Ruby Tulip",
+    "price": 14.95,
+    "image_link": "https://iili.io/JxNwyns.png"
+  }
+]

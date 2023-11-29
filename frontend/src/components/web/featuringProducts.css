@@ -1,0 +1,14 @@
+.featuringProducts {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+@media (max-width: 1080px) {
+  .featuringProducts {
+    width: 90%;
+  }
+}

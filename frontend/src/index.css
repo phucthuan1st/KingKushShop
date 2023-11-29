@@ -5,9 +5,15 @@
   font-size: 18px;
 }
 
+@media (max-width: 1080px) {
+  * {
+    font-size: 14px;
+  }
+}
+
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

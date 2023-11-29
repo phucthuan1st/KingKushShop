@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 85%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .welcome-flex .button-wrapper {
@@ -11,10 +12,10 @@
 }
 
 .welcome-flex .button {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: seagreen;
   background-color: whitesmoke;
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
 
 .welcome-flex .button:hover {
@@ -28,4 +29,17 @@
 
 .welcome-flex h2 {
   font-size: 1.5rem;
+}
+
+@media (max-width: 1080px) {
+  .welcome-flex {
+    height: 80%;
+  }
+  .welcome-flex h1 {
+    font-size: 1.2rem;
+  }
+
+  .welcome-flex h2 {
+    font-size: 0.8rem;
+  }
 }
