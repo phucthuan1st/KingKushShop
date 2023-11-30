@@ -1,33 +1,48 @@
 .productCard {
   width: 30%;
+  height: auto;
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.15s ease-in-out;
 }
 
 .img-wrapper {
-  height: 70%;
+  height: 60%;
 }
 
 .prod-name-wrapper {
-  height: 17%;
+  height: 16%;
+  padding-bottom: 1rem;
 }
 
-.prod-price-wrapper {
-  height: 13%;
+.types-wrapper {
+  height: 24%;
+  padding-bottom: 1rem;
 }
 
 .img-wrapper,
-.prod-price-wrapper,
-.prod-name-wrapper {
+.prod-name-wrapper,
+.types-wrapper {
   justify-content: center;
   align-items: center;
+}
+
+.types-wrapper ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.types-wrapper ul li {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 1080px) {
   .productCard {
     width: 40%;
+    height: calc(40vh - 1rem);
   }
 }
 

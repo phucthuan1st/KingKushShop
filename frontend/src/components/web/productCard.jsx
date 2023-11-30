@@ -4,8 +4,8 @@ import "./productCard.css";
 const ProductCard = ({
   productId,
   productName,
-  productPrice,
   productImageLink,
+  productTypes,
   onProductClicked,
 }) => {
   return (
@@ -20,8 +20,14 @@ const ProductCard = ({
       <div className="prod-name-wrapper container centered">
         <h2>{productName}</h2>
       </div>
-      <div className="prod-price-wrapper container centered">
-        <p>${productPrice}</p>
+      <div className="types-wrapper container centered">
+        <ul>
+          {productTypes.map((type) => (
+            <li key={type.type}>
+              {type.type}: ${type.price}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

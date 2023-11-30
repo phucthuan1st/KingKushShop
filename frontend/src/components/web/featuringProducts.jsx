@@ -1,7 +1,7 @@
 import React from "react";
 import "./featuringProducts.css";
 import ProductCard from "./productCard";
-import plantDB from "./plants.json";
+import plantDB from "../static/plants.json";
 
 const FeaturingProducts = () => {
   const handleProductClick = (productId) => {
@@ -11,11 +11,12 @@ const FeaturingProducts = () => {
 
   return (
     <div className="featuringProducts centered">
+      <div className="title-wrapper">New Products</div>
       {plantDB.map((product) => (
         <ProductCard
           productId={product.id}
           productName={product.name}
-          productPrice={product.price}
+          productTypes={product.types}
           productImageLink={product.image_link}
           onProductClicked={handleProductClick}
         />

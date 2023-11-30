@@ -1,0 +1,93 @@
+[
+  {
+    "id": "sapphire_rose",
+    "name": "Sapphire Rose",
+    "image_link": "https://iili.io/JxNNHPf.png",
+    "types": [
+      { "type": "small", "price": 12.99 },
+      { "type": "medium", "price": 15.99 }
+    ]
+  },
+  {
+    "id": "golden_fern",
+    "name": "Golden Fern",
+    "image_link": "https://iili.io/JxNwmtn.png",
+    "types": [
+      { "type": "medium", "price": 12.49 },
+      { "type": "large", "price": 18.99 }
+    ]
+  },
+  {
+    "id": "azure_orchid",
+    "name": "Azure Orchid",
+    "image_link": "https://iili.io/JxNwt9I.png",
+    "types": [
+      { "type": "small", "price": 18.75 },
+      { "type": "medium", "price": 22.99 },
+      { "type": "large", "price": 28.99 }
+    ]
+  },
+  {
+    "id": "amber_lily",
+    "name": "Amber Lily",
+    "image_link": "https://iili.io/JxNwbwX.png",
+    "types": [{ "type": "small", "price": 9.99 }]
+  },
+  {
+    "id": "silver_maple",
+    "name": "Silver Maple",
+    "image_link": "https://iili.io/JxNwDut.jpg",
+    "types": [{ "type": "large", "price": 22.5 }]
+  },
+  {
+    "id": "emerald_bamboo",
+    "name": "Emerald Bamboo",
+    "image_link": "https://iili.io/JxNwyns.png",
+    "types": [
+      { "type": "medium", "price": 14.95 },
+      { "type": "large", "price": 19.99 }
+    ]
+  },
+  {
+    "id": "topaz_tulip",
+    "name": "Topaz Tulip",
+    "image_link": "https://iili.io/JxNN9MG.jpg",
+    "types": [
+      { "type": "small", "price": 16.25 },
+      { "type": "medium", "price": 19.99 }
+    ]
+  },
+  {
+    "id": "ruby_daisy",
+    "name": "Ruby Daisy",
+    "image_link": "https://iili.io/JxNN2cl.png",
+    "types": [{ "type": "small", "price": 11.99 }]
+  },
+  {
+    "id": "onyx_sunflower",
+    "name": "Onyx Sunflower",
+    "image_link": "https://iili.io/JxNNnou.png",
+    "types": [
+      { "type": "medium", "price": 19.99 },
+      { "type": "large", "price": 24.99 }
+    ]
+  },
+  {
+    "id": "pearl_cactus",
+    "name": "Pearl Cactus",
+    "image_link": "https://iili.io/JxNNfA7.png",
+    "types": [{ "type": "small", "price": 8.5 }]
+  },
+  {
+    "id": "quartz_rosemary",
+    "name": "Quartz Rosemary",
+    "image_link": "https://iili.io/JxNNqN9.png",
+    "types": [{ "type": "medium", "price": 13.75 }]
+  },
+  {
+    "id": "ruby_tulip",
+    "name": "Ruby Tulip",
+    "image_link": "https://iili.io/JxNwyns.png",
+    "types": [{ "type": "medium", "price": 14.95 }]
+  }
+]
